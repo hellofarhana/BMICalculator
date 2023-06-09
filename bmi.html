@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurin's Calculator</title>
+    <link rel="stylesheet" href="bmi.css">
+    <script src="bmi.js" defer></script>
+</head>
+<body>
+    <a href="http://localhost/Myprofile/profile.html" style="font-size:40px" class="previous">&laquo; My Profile</a>
+
+    
+    
+    <div class="wrapper">
+        <bold></bold><h1 style="color:rgb(94, 85, 6)" > HELLO GUYS &#128512 </h1> <bold>
+            <h2 style= "color:rgb(7, 21, 53)" > This is calculator to calculate BMI</h2>
+            <br>
+
+            <div class="input"> 
+                <label for="name"> <strong> Your Name : </strong></label> <br>
+                <input type="text" id="Name" required>
+                <span id="name_error"></span>
+              </div><br>
+
+              <div class="input">
+                <label for ="age"> <strong> Your Age : </strong></label> <br>
+                <input type="text" id="age" required><br><br>
+                </div><br>
+
+            <div class="input">
+                    <label for="datetime" > <strong> Choose the date:</strong></label><br>
+                    <input type="datetime-local" id="datetime" name="datetime">
+                    </div><br>
+
+
+        <div class="input">
+            <label for="Exercise" > <strong> Type of Exercise:</strong></label><br>
+            <select name="Exercise" id="exercise" required>
+            <option value="" name="" disable selected> select Exercise</option> 
+            <option value="Indoor"> Indoor </option>
+            <option value="Outdoor"> Outdoor</option>
+            <option value="Others"> Others</option>
+            </select>
+        </div><br>
+
+            <div class="input">
+                <h3><label for="gender"><strong> Your Gender :<strong> </strong><label for=""></label><br>
+                <select name= "gender" placeholder=" Choose your gender" id="gender" required> 
+                <option value="" disable selected> Choose Here</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+                </select>
+            </div>
+            
+                <p> <label for ="Height"> <strong> Your Height: </strong></label> <br>
+                 <input type="text" id="height"><br><span id="height_error"></span>
+                 </p><br>
+                         
+                 <p> <label for ="weight"> <strong> Your weight: </strong></label> <br>
+                 <input type="text" id="weight"><br><span id="weight_error"></span>
+                
+            
+                    <button id="btn">Calculate</button>
+                    <bold></bold><h3 style="color:rgb(75, 69, 9)" > Result of BMI After Calculate at the bellow: : </h3> <bold>
+                    <p id="output"></p></div>
+                    <p id="demo"></p><div>
+                   
+    </div>
+</body>
+</html>
+        
